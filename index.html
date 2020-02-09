@@ -1,38 +1,320 @@
-<html>
-<head>
-<img src="logo.jpg" align="left" height="100" width="100">
-<hr>	
-<title>Steradian</title>
-</head>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Steradian</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<h1>STERADIAN</h1>
-<h2> Information is the key </h2>
-<hr>
+        <!--Google fonts links-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 
-<a class="weatherwidget-io" href="https://forecast7.com/en/38d97n95d24/lawrence/?unit=us" data-label_1="LAWRENCE" data-label_2="Weather" data-icons="Climacons Animated" data-theme="clear" >LAWRENCE Weather</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-webfont.css" />
 
-<body>
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-<br> </br> 
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
 
-<hr>
-<!--
-<h4> Info on Climate change <a href="https://climate.nasa.gov/"> CLIMATE.NASA.GOV </a></h4>
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-<script src="https://climateclock.world/widget-v1.js" async></script>
-<climate-clock></climate-clock>
--->
-<hr>
+        <!-- Sections -->
+        <!--<section id="social" class="social">
+            <div class="container">
+                <!-- Example row of columns ->
+                <div class="row">
+                    <div class="social-wrapper">
+                        <div class="col-md-6">
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-contact">
+                                <a href="#"><i class="fa fa-phone"></i>+011 54925849</a>
+                                <a href="#"><i class="fa fa-envelope"></i>contact@softech.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /container ->       
+        </section>
+		-->
 
-<p>
-<br><a href="https://github.com/haramadhav/steradian"> GitHub </a>  <a href=" https://devpost.com/software/steradian"> DEVPOST </a> 
-<br><a href="https://hackku.org/"> Hack KU </a> <a href="https://mlh.io/"> (MLH 2020)</a>
-</p>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo" /></a>
+                </div>
 
-</body>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#features">INSPIRATION</a></li>
+						<li><a href="#features2">SOLUTION</a></li>
+                        <li><a href="#platform">PLATFORM</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home">
+            <div class="overlay-fluid-block">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="home-wrapper">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="home-content">
+
+                                    <h1>Power of smart cities in your plain sight</h1>
+                                    <p>Information is the key</p>
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                            <div class="home-contact">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="Enter your LOCATION">
+                                                    <input type="submit" class="form-control" value="Make me smarter">
+
+                                                </div><!-- /input-group -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>			
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="features" class="features sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_features_content2">
+
+                        <div class="col-sm-6">
+                            <div class="single_features_left text-center">
+                                <img src="assets/images/feature-2.jpg" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 margin-top-60">
+                            <div class="single_features_right ">
+                                <h2>Inspiration</h2>
+                                <p>Evolving technologies and their complex entities</p>
+                                <ul>
+                                    <li>Smart citizens need smart info</li>
+                                    <li>Living and current situations</li>
+                                    <li>Easy to access</li>
+                                </ul>
+                                <div class="features_buttom">
+                                    <a href="" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Features 2 Section -->
+        <section id="features2" class="features sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_features_content2">
+
+
+
+                        <div class="col-sm-6 margin-top-60">
+                            <div class="single_features_right ">
+                                <h2>Steradian is the solution</h2>
+                                <p>Power to your brain</p>
+                                <ul>
+                                    <li>Simple categorized info</li>
+                                    <li>Integrate to your website</li>
+									<li>Transparent portal for everyone</li>
+                                </ul>
+                                <div class="features_buttom">
+                                    <a href="" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="single_features_left text-center">
+                                <img src="assets/images/feature-1.jpg" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Features 2 Section -->
+
+        <!-- Sections -->
+        <section id="platform" class="portfolio sections">
+            <div class="container">
+                <div class="head_title text-center">
+                    <h1>Information Platform</h1>
+                    <p>A few categories for smart cities</p>
+                </div>
+				<a class="weatherwidget-io" href="https://forecast7.com/en/38d97n95d24/lawrence/?unit=us" data-label_1="LAWRENCE" data-label_2="Weather" data-icons="Climacons Animated" data-theme="clear" >LAWRENCE Weather</a>
+				<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+				</script>
+				<br> <br>
+
+                <div class="row">
+                    <div class="portfolio-wrapper text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-book"></i>
+                                <div class="separator"></div>
+                                <h4>Research and Education</h4>
+                                <p>Past and on-going research, labs, educational institutions, and libraries</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-bug"></i>
+                                <div class="separator"></div>
+                                <h4>Computer Science</h4>
+                                <p>Companies and startups working on information and computers</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-gears"></i>
+                                <div class="separator"></div>
+                                <h4>Engineering</h4>
+                                <p>Info on production facilities, design and construction domains</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-external-link"></i>
+                                <div class="separator"></div>
+                                <h4>External Sources</h4>
+                                <p>Mostly used external links for entities and information in your area</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="portfolio-wrapper2 text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-coffee"></i>
+                                <div class="separator"></div>
+                                <h4>Food and Fun</h4>
+                                <p>Nutrition info, places to eat, hiking, and adventures</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-tree"></i>
+                                <div class="separator"></div>
+                                <h4>Community Involvement</h4>
+                                <p>Parks, community events, social involvement, and recreation</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-paper-plane-o"></i>
+                                <div class="separator"></div>
+                                <h4>Transportation</h4>
+                                <p>Roadways, railways, airways, and waterways</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-folder-open"></i>
+                                <div class="separator"></div>
+                                <h4>Expert Info</h4>
+                                <p>Experts and professional views and collaborations</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-brand">
+                                <img src="assets/images/logo.png" alt="logo" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+                                <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="scrollup">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
